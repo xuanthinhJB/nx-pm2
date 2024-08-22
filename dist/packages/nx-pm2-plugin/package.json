@@ -4,8 +4,7 @@
   "type": "commonjs",
   "executors": "./executors.json",
   "peerDependencies": {
-    "nx": "^16.0.0",
-    "tslib": "2.5.3"
+    "nx": "^16.0.0"
   },
   "keywords": [
     "nx",
@@ -19,6 +18,5 @@
     "type": "git",
     "url": "https://github.com/jonathandsouza/nx-pm2"
   },
-  "main": "./src/index.js",
-  "types": "./src/index.d.ts"
+  "main": "./src/index.js"
 }
