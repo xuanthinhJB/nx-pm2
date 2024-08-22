@@ -1,0 +1,32 @@
+{
+  "run": {
+    "command": "nx run-many --target=build --all=true",
+    "startTime": "2024-08-22T10:41:02.952Z",
+    "endTime": "2024-08-22T10:41:03.640Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "nx-pm2-example:build:production",
+      "target": "build",
+      "projectName": "nx-pm2-example",
+      "hash": "9268864999776135653",
+      "startTime": "2024-08-22T10:41:02.955Z",
+      "endTime": "2024-08-22T10:41:02.973Z",
+      "params": "",
+      "cacheStatus": "local-cache-hit",
+      "status": 0
+    },
+    {
+      "taskId": "nx-pm2-deploy:build",
+      "target": "build",
+      "projectName": "nx-pm2-deploy",
+      "hash": "616336113990662117",
+      "startTime": "2024-08-22T10:41:02.956Z",
+      "endTime": "2024-08-22T10:41:03.640Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 0
+    }
+  ]
+}

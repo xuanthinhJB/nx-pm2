@@ -1,0 +1,19 @@
+{
+  "name": "nx-pm2-deploy",
+  "version": "1.0.6",
+  "type": "commonjs",
+  "executors": "./executors.json",
+  "keywords": [
+    "nx",
+    "pm2",
+    "plugin",
+    "monorepo",
+    "executors",
+    "custom-executors"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathandsouza/nx-pm2"
+  },
+  "main": "./src/index.js"
+}
